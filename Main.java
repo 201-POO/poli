@@ -7,7 +7,7 @@ import entities.Rectangle;
 public class Main {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        Figura2D fig = null;
+        Figura2D fig = null; //new Figura2D(); No puede ser instanciada
         int opt = 0;
         do {
             System.out.println("***** PAINT *****");

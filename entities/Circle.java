@@ -5,6 +5,7 @@ public class Circle extends Figura2D {
 
     @Override
     public void paint() {
+        super.paint();
         System.out.println("Circle.paint()");
     }
 
